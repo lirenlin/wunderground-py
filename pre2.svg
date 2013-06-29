@@ -45,7 +45,8 @@
 </g>
 
 <g font-family="DejaVu Sans">
-<text style="text-anchor:left;" font-size="25px" y="30" x="10">Today:COND_ONE</text>
+<text style="text-anchor:left;" font-size="25px" y="30" x="10">Today:</text>
+<text style="text-anchor:left;" font-size="25px" y="60" x="10">COND_ONE</text>
 
 <text style="text-anchor:end;" font-size="20px" y="310" x="60">High:</text>
 <text style="text-anchor:end;" font-size="30px" y="310" x="98">HIGH_ONE</text>
@@ -122,7 +123,7 @@
 <path stroke="black" d="M 330 20 L 330 400" stroke-width="6"/>
 
 <polyline points="30,HOURLY_YAIX_0 90,HOURLY_YAIX_1 150,HOURLY_YAIX_2 210,HOURLY_YAIX_3 270,HOURLY_YAIX_4 330,HOURLY_YAIX_5 390,HOURLY_YAIX_6 450,HOURLY_YAIX_7 510,HOURLY_YAIX_8 570,HOURLY_YAIX_9"
-  style="fill:none;stroke:black;stroke-width:3" />
+  style="fill:none;stroke:black;stroke-width:1" />
 
 <switch>
     <foreignObject x="5" y="520" width="600" height="350"

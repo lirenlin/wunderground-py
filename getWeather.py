@@ -184,7 +184,13 @@ def w2svg(feature):
     avg_min = int(min(hourly_avg))
     avg_range = avg_max - avg_min
 
+    print hourly_avg
+    print avg_max
+    print avg_min
+    print avg_range
+
     hourly_yaix = [str(460 - int(float(int(x) - avg_min)/avg_range*30)) for x in hourly_avg]
+    print hourly_yaix
 
     output = output.replace('HOURLY_MAX',str(avg_max))
     output = output.replace('HOURLY_MIN',str(avg_min))

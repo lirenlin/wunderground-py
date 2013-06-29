@@ -31,62 +31,58 @@
 </defs>
 
 <g transform="scale(2.5) translate(14 12)">
-<use xlink:href="#ra"/>
+<use xlink:href="#bkn"/>
 </g>
 
 <g transform="scale(1.2) translate(300 25)">
-<use xlink:href="#ra1"/>
+<use xlink:href="#bkn"/>
 </g>
 <g transform="scale(1.2) translate(300 135)">
 <use xlink:href="#bkn"/>
 </g>
 <g transform="scale(1.2) translate(300 245)">
-<use xlink:href="#bkn"/>
+<use xlink:href="#sct"/>
 </g>
 
 <g font-family="DejaVu Sans">
-<text style="text-anchor:left;" font-size="25px" y="30" x="10">Sat, Jun 29, Aachen:Rain</text>
+<text style="text-anchor:left;" font-size="25px" y="30" x="10">Sat, Jun 29, Aachen:</text>
+<text style="text-anchor:left;" font-size="25px" y="60" x="10">Mostly Cloudy</text>
 
 <text style="text-anchor:end;" font-size="20px" y="310" x="60">High:</text>
-<text style="text-anchor:end;" font-size="30px" y="310" x="98">18</text>
+<text style="text-anchor:end;" font-size="30px" y="310" x="98">19</text>
 <text style="text-anchor:left;" font-size="18px" y="290" x="96">°C</text>
 <text style="text-anchor:end;" font-size="20px" y="310" x="160">Low:</text>
-<text style="text-anchor:end;" font-size="30px" y="310" x="198">10</text>
+<text style="text-anchor:end;" font-size="30px" y="310" x="198">7</text>
 <text style="text-anchor:left;" font-size="18px" y="290" x="196">°C</text>
 <text style="text-anchor:end;" font-size="20px" y="310" x="260">Rain:</text>
-<text style="text-anchor:end;" font-size="30px" y="310" x="298">70</text>
+<text style="text-anchor:end;" font-size="30px" y="310" x="298">0</text>
 <text style="text-anchor:left;" font-size="18px" y="290" x="296">%</text>
 
-<text style="text-anchor:left;" font-size="18px" y="280" x="296">%</text>
-<text style="text-anchor:left;" font-size="18px" y="280" x="296">%</text>
-<text style="text-anchor:left;" font-size="18px" y="280" x="296">%</text>
-<text style="text-anchor:left;" font-size="18px" y="280" x="296">%</text>
-
-<text style="text-anchor:left;" font-size="20px" y="30" x="340">Tomorrow:Chance of Rain</text>
+<text style="text-anchor:left;" font-size="20px" y="30" x="340">Sun:Mostly Cloudy</text>
 <text style="text-anchor:middle;" font-size="15px" y="60" x="520">High:</text>
-<text style="text-anchor:end;" font-size="20px" y="60" x="570">21</text>
+<text style="text-anchor:end;" font-size="20px" y="60" x="570">20</text>
 <text style="text-anchor:left;" font-size="10px" y="50" x="570">°C</text>
 <text style="text-anchor:middle;" font-size="15px" y="90" x="520">Low:</text>
-<text style="text-anchor:end;" font-size="20px" y="90" x="570">13</text>
+<text style="text-anchor:end;" font-size="20px" y="90" x="570">14</text>
 <text style="text-anchor:left;" font-size="10px" y="80" x="570">°C</text>
 <text style="text-anchor:middle;" font-size="15px" y="120" x="520">Rain:</text>
-<text style="text-anchor:end;" font-size="20px" y="120" x="570">40</text>
+<text style="text-anchor:end;" font-size="20px" y="120" x="570">0</text>
 <text style="text-anchor:left;" font-size="10px" y="110" x="570">%</text>
 
-<text style="text-anchor:left;" font-size="20px" y="165" x="340">Monday:Mostly Cloudy</text>
+<text style="text-anchor:left;" font-size="20px" y="165" x="340">Mon:Chance of Rain</text>
 <text style="text-anchor:middle;" font-size="15px" y="195" x="520">High:</text>
 <text style="text-anchor:end;" font-size="20px" y="195" x="570">23</text>
 <text style="text-anchor:left;" font-size="10px" y="185" x="570">°C</text>
 <text style="text-anchor:middle;" font-size="15px" y="225" x="520">Low:</text>
-<text style="text-anchor:end;" font-size="20px" y="225" x="570">13</text>
+<text style="text-anchor:end;" font-size="20px" y="225" x="570">12</text>
 <text style="text-anchor:left;" font-size="10px" y="215" x="570">°C</text>
 <text style="text-anchor:middle;" font-size="15px" y="255" x="520">Rain:</text>
-<text style="text-anchor:end;" font-size="20px" y="255" x="570">0</text>
+<text style="text-anchor:end;" font-size="20px" y="255" x="570">20</text>
 <text style="text-anchor:left;" font-size="10px" y="245" x="570">%</text>
 
-<text style="text-anchor:left;" font-size="20px" y="295" x="340">Tuesday:Mostly Cloudy</text>
+<text style="text-anchor:left;" font-size="20px" y="295" x="340">Tue:Partly Cloudy</text>
 <text style="text-anchor:middle;" font-size="15px" y="325" x="520">High:</text>
-<text style="text-anchor:end;" font-size="20px" y="325" x="570">24</text>
+<text style="text-anchor:end;" font-size="20px" y="325" x="570">22</text>
 <text style="text-anchor:left;" font-size="10px" y="315" x="570">°C</text>
 <text style="text-anchor:middle;" font-size="15px" y="355" x="520">Low:</text>
 <text style="text-anchor:end;" font-size="20px" y="355" x="570">14</text>
@@ -96,10 +92,41 @@
 <text style="text-anchor:left;" font-size="10px" y="375" x="570">%</text>
 </g>
 
+<text style="text-anchor:middle;" font-size="15px" y="480" x="30">0</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="90">1</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="150">2</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="210">3</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="270">4</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="330">5</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="390">6</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="450">7</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="510">8</text>
+<text style="text-anchor:middle;" font-size="15px" y="480" x="570">9</text>
+
+<text style="text-anchor:end;" font-size="15px" y="430" x="20">9</text>
+<text style="text-anchor:left;" font-size="10px" y="420" x="20">°C</text>
+<text style="text-anchor:end;" font-size="15px" y="460" x="20">10</text>
+<text style="text-anchor:left;" font-size="10px" y="450" x="20">°C</text>
+
+
+<use xlink:href="#sct" transform="translate(21  400) scale(0.4)" />
+<use xlink:href="#sct" transform="translate(63  400) scale(0.4)" />
+<use xlink:href="#sct" transform="translate(105 400) scale(0.4)" />
+<use xlink:href="#sct" transform="translate(147 400) scale(0.4)" />
+<use xlink:href="#sct" transform="translate(189 400) scale(0.4)" />
+<use xlink:href="#skc" transform="translate(231 400) scale(0.4)" />
+<use xlink:href="#skc" transform="translate(273 400) scale(0.4)" />
+<use xlink:href="#skc" transform="translate(315 400) scale(0.4)" />
+<use xlink:href="#bkn" transform="translate(357 400) scale(0.4)" />
+<use xlink:href="#bkn" transform="translate(399 400) scale(0.4)" />
+
 <path stroke="black" d="M 330 20 L 330 400" stroke-width="6"/>
 
+<polyline points="30,490 90,490 150,490 210,460 270,460 330,430 390,460 450,460 510,490 570,550"
+  style="fill:none;stroke:black;stroke-width:1" />
+
 <switch>
-    <foreignObject x="5" y="450" width="600" height="350"
+    <foreignObject x="5" y="520" width="600" height="350"
             requiredExtensions="http://www.w3.org/1999/xhtml">
         <body xmlns="http://www.w3.org/1999/xhtml">
             <div>
@@ -108,7 +135,7 @@
          </body>
     </foreignObject>
 
-    <text style="text-anchor:middle" font-size="28px" x="300" y="450">
+    <text style="text-anchor:middle" font-size="28px" x="300" y="520">
         NOTE_TEXT
     </text>
 
