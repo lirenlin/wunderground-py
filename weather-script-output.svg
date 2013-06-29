@@ -103,12 +103,12 @@
 <text style="text-anchor:middle;" font-size="15px" y="480" x="510">8</text>
 <text style="text-anchor:middle;" font-size="15px" y="480" x="570">9</text>
 
-<text style="text-anchor:end;" font-size="15px" y="430" x="20">9</text>
+<text style="text-anchor:end;" font-size="15px" y="430" x="20">13</text>
 <text style="text-anchor:left;" font-size="10px" y="420" x="20">°C</text>
-<text style="text-anchor:end;" font-size="15px" y="460" x="20">10</text>
+<text style="text-anchor:end;" font-size="15px" y="460" x="20">9</text>
 <text style="text-anchor:left;" font-size="10px" y="450" x="20">°C</text>
 
-
+<!--
 <use xlink:href="#sct" transform="translate(21  400) scale(0.4)" />
 <use xlink:href="#sct" transform="translate(63  400) scale(0.4)" />
 <use xlink:href="#sct" transform="translate(105 400) scale(0.4)" />
@@ -119,11 +119,12 @@
 <use xlink:href="#skc" transform="translate(315 400) scale(0.4)" />
 <use xlink:href="#bkn" transform="translate(357 400) scale(0.4)" />
 <use xlink:href="#bkn" transform="translate(399 400) scale(0.4)" />
+-->
 
 <path stroke="black" d="M 330 20 L 330 400" stroke-width="6"/>
 
-<polyline points="30,490 90,490 150,490 210,460 270,460 330,430 390,460 450,460 510,490 570,550"
-  style="fill:none;stroke:black;stroke-width:1" />
+<polyline points="30,445 90,445 150,445 210,453 270,453 330,460 390,453 450,453 510,445 570,430"
+  style="fill:none;stroke:black;stroke-width:1.5" />
 
 <switch>
     <foreignObject x="5" y="520" width="600" height="350"

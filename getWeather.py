@@ -174,23 +174,17 @@ def w2svg(feature):
 
     url = urllib2.urlopen(urlTmp%(key, "hourly" , country, city))
     json_string = url.read()
-    weatherList = function["hourly"](json_string)
+    hourlyList = function["hourly"](json_string)
     url.close
 
-    hourly_icons = [iconMap(x["icon"]) for x in weatherList[0:10]]
-    hourly_datetime = [x["datetime"] for x in weatherList[0:10]]
-    hourly_avg = [x["avg"] for x in weatherList[0:10]]
+    hourly_icons = [iconMap(x["icon"]) for x in hourlyList[0:10]]
+    hourly_datetime = [x["datetime"] for x in hourlyList[0:10]]
+    hourly_avg = [int(x["avg"]) for x in hourlyList[0:10]]
     avg_max = int(max(hourly_avg))
     avg_min = int(min(hourly_avg))
     avg_range = avg_max - avg_min
 
-    print hourly_avg
-    print avg_max
-    print avg_min
-    print avg_range
-
-    hourly_yaix = [str(460 - int(float(int(x) - avg_min)/avg_range*30)) for x in hourly_avg]
-    print hourly_yaix
+    hourly_yaix = [str(460 - int(float(x - avg_min)/avg_range*30)) for x in hourly_avg]
 
     output = output.replace('HOURLY_MAX',str(avg_max))
     output = output.replace('HOURLY_MIN',str(avg_min))
